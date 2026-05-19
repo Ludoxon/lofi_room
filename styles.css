@@ -1,0 +1,18 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#canvas {
+  width: 600px;
+  height: 600px;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
